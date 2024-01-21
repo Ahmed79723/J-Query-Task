@@ -1,0 +1,86 @@
+:root {
+  scroll-behavior: auto;
+}
+/* ?=================================================================|NvaBar|==================================================== */
+nav {
+  left: -253.988px;
+}
+#nav-close {
+  width: fit-content;
+  margin-left: auto;
+  background: #ca0000;
+  cursor: pointer;
+}
+nav ul li {
+  padding-top: 10%;
+  width: 100%;
+}
+ul a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s;
+  display: block;
+  width: 125%;
+  padding-right: 50px;
+}
+nav ul a:hover {
+  color: #d62e33;
+}
+/* ?=================================================================|Home|==================================================== */
+#home {
+  background-image: url(../imgs/events-heavenly-header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+h1 {
+  font-size: 60px;
+}
+
+/* ?=================================================================|Details|=================================================== */
+#Details h3 {
+  margin: 0 !important;
+  cursor: pointer;
+  background-color: #e68285;
+}
+#Details p {
+  margin: 0 !important;
+}
+.singer p {
+  display: none;
+}
+.singer .first {
+  display: block;
+}
+/* ?=================================================================|Duration|=================================================== */
+#Duration {
+  background-image: url(../imgs/invitation-2508607__340.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+#Duration span {
+  color: white;
+  text-wrap: nowrap;
+}
+.layer {
+  background-color: rgba(214, 46, 51, 0.6);
+}
+/* ?=================================================================|Contact|=================================================== */
+#form-btn {
+  width: fit-content;
+  background: #d62e33;
+  border: 1px solid #d62e33;
+}
+.social-links i {
+  margin-right: 10px;
+  border: 1px solid #999;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  text-align: center;
+}
+.social-links i:hover {
+  color: #fff;
+  background-color: #d62e33;
+  border: 1px solid #d62e33;
+}
